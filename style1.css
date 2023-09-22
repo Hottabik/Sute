@@ -1,0 +1,58 @@
+header {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Стили для h3 */
+h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* Стили для img */
+img {
+  display: block;
+  margin: 0 auto;
+}
+/* Стили для p */
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* Стили для p1 */
+p1 {
+  text-indent: 25px;
+  text-align: center;
+  clear: both;
+  margin-bottom: 20px;
+}
+/* Стили для h4 */
+h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* Стили для li */
+li {
+  margin-bottom: 5px;
+}
+/* Стили для a */
+a {
+  color: blue;
+}
+/* Стили для footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+html {
+  background-image: url('dota.jpg'); /* Путь к вашему изображению фона */
+  background-size: cover; /* Масштабирует изображение так, чтобы оно заполнило весь экран */
+  background-repeat: no-repeat; /* Запрет повторения фонового изображения */
+  background-attachment: fixed; /* Фон будет неподвижным при прокрутке страницы */
+  }
+  /* CSS для изменения цвета текста */
+  body {
+  color: #36dd03; /* Цвет текста, например, оранжевый */
+  }

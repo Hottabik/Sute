@@ -1,0 +1,32 @@
+header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+  }
+  footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  address {
+    font-style: italic;
+  }
+  li {
+    list-style-type: none;
+  }
+  a {
+    color: blue;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  p {
+    margin: 10px 0;
+  }
+  img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+  }
