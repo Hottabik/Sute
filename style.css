@@ -3,6 +3,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color:#f0f0f0;
   }
   header {
     background-color: #f0f0f0;
@@ -57,7 +58,16 @@
     font-size: 14px;
     color: #666;
   }
-
+/* CSS для анимации текста */
+@keyframes colorChange {
+  0% { color: #ff5733; } /* Начальный цвет, например, оранжевый */
+  50% { color: #3498db; } /* Промежуточный цвет, например, синий */
+  100% { color: #27ae60; } /* Конечный цвет, например, зеленый */
+  }
+  
+  .animated-text {
+  animation: colorChange 2s infinite alternate; /* Анимация: 2 секунды, бесконечно, смена цветов в обратном порядке */
+  }
   html {
     background-image: url('zad.jpg'); /* Путь к вашему изображению фона */
     background-size: cover; /* Масштабирует изображение так, чтобы оно заполнило весь экран */
